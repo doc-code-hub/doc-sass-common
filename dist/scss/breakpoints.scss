@@ -1,0 +1,44 @@
+
+/**
+*   Breakpoint per le media query
+*
+*   Per ogni device è definito un range in px da poter usare come min-width e max-width all'interno delle media query.
+*   Tutte le variabili hanno prefisso $mq.
+*   Quelli che definiscono la base minima sono strutturati come $mq{DEVICE_TYPE}.
+*   Quelli usati per il limite massimo di ognuno sono così strutturati: $mq{DEVICE_TYPE}Max
+*/
+
+// Phone Micro 
+$mqMicro: 300px;
+$mqMicroMax: 359px;
+
+// Phone Mini
+$mqMini: 360px;
+$mqMiniMax: 410px;
+
+// Phone
+$mqPhone: 411px;
+$mqPhoneMax: 599px;
+
+// Tablet Small
+$mqSmallTablet: 600px;
+$mqSmallTabletMax: 767px;
+
+// Tablet
+$mqTablet: 768px;
+$mqTabletMax: 1023px;
+
+// PC Small
+$mqSmallPc: 1024px;
+$mqSmallPcMax: 1300px;
+
+// PC Medium
+$mqMediumPc: 1301px;
+$mqMediumPcMax: 1919px;
+
+// PC
+$mqPc: 1920px;
+$mqPcMax: 3939px;
+
+// PC Wide
+$mqWidePc: 3940px;

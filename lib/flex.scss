@@ -1,0 +1,119 @@
+/**
+* Classi predefinite per proprietà flex.
+*
+* Di seguito sono definite classi utili a impostare ogni tipologia (o quasi) di flex.
+*
+* La classe "flex" assegna il display: flex.
+* Le classi con prefisso "a-" regolano l'align-items
+* Le classi con prefisso "j-" regolano il justify-content
+* Le classi con prefisso "f-" regolano le altre proprietà come flex-direction e flex-wrap.
+*
+* È inoltre definita una speciale classe frequentemente usata: flex-center-all.
+* Questa imposta autonomamente il display flex, assegnando "center" a ambo le proprietà (align-items, justify-content)
+*/
+
+// Flex
+.flex,
+.j-between,
+.j-around,
+.j-center,
+.a-center,
+.j-start,
+.a-start,
+.a-baseline,
+.j-end,
+.a-end,
+.f-column,
+.c-reverse,
+.f-row,
+.r-reverse,
+.f-wrap,
+.f-nowrap,
+.flex-center-all
+{
+  display: flex;
+  box-sizing: border-box;
+}
+
+// Row
+.row {
+  @extend .flex;
+  @extend .f-row;
+  @extend .f-wrap;
+  @extend .j-between;
+  @extend .w-100 !optional;
+  @extend .relative !optional;
+}
+
+
+
+// Justify Content
+.j-between {
+  justify-content: space-between;
+}
+
+.j-around {
+  justify-content: space-around;
+}
+
+.j-center {
+  justify-content: center;
+}
+
+// Align Items
+.a-center {
+  align-items: center;
+}
+
+.j-start {
+  justify-content: flex-start;
+}
+
+.a-start {
+  align-items: flex-start;
+}
+
+.a-baseline {
+  align-items: baseline;
+}
+
+.j-end {
+  justify-content: flex-end;
+}
+
+.a-end {
+  align-items: flex-end;
+}
+
+// Flex Direction
+.f-column {
+  flex-direction: column;
+}
+.c-reverse {
+  flex-direction: column-reverse;
+}
+
+.f-row {
+  flex-direction: row;
+}
+
+.r-reverse {
+  flex-direction: row-reverse;
+}
+
+// Flex Wrap
+.f-wrap {
+  flex-wrap: wrap;
+}
+
+.f-nowrap {
+  flex-wrap: wrap;
+}
+
+/** Presets */
+
+// Flex Center All
+.flex-center-all {
+  justify-content: center;
+  align-items: center;
+}

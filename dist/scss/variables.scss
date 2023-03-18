@@ -1,0 +1,147 @@
+// UTILS VARIABLES
+
+// Altezza header
+$headerHeight: 70px;
+
+$pageContainerHeaderHeight: $headerHeight;
+
+// Altezza di header + page container header
+$headerAndPageContainerHeight: calc(#{$headerHeight} + #{$pageContainerHeaderHeight});
+
+// Altezza minima del corpo del page container
+$pageContainerBodyMinHeight: calc(100vh - #{$headerAndPageContainerHeight});
+
+$headerIndex: 2000;
+
+$pagesIndex: 800;
+
+$loaderIndex: 10000;
+
+// Altezza Textarea
+$textAreaHeight: 80px;
+
+// Altezza Likebar
+$likebarHeight: 60px;
+
+// Border Radius
+$microRadius: 2px;
+$tinyRadius: 4px;
+$smallRadius: 8px;
+$mediumRadius: 15px;
+$largeRadius: 25px;
+$veryLargeRadius: 35px;
+$infiniteRadius: 100000px;
+
+// Transizioni
+$transitionTimeInstant: 0.14s;
+$transitionTimeLow: 0.3s;
+$transitionTimeMid: 0.5s;
+$transitionTimeLong: 0.9s;
+
+// BOX SHADOWS
+$pricePackShadow: 0px -5px 15px 0.5px #ddddddcd;
+$lightShadow: 0px 0px 1px 0.5px #ddddddcd;
+$defaultBoxShadow: 0px 0px 8px 0.5px #ddddddcd;
+$ddDefaultBoxShadow: 0px 0px 8px 0.5px #2b2b2bcd;
+$heavyShadow: 0px 0px 12px 1px #ddddddcd;
+$heavyShadowRed: 0px 0px 50px -18px #620a1fec;
+$heavyShadowDD: 0px 0px 50px -25px #300a11ea;
+$otherGavsShadow: 0 -1px 15px 0 #9b9a9ac5;
+$smallInsetShadow: 0 -1px 15px -5px #9b9a9ac5 inset;
+
+// COLORI
+
+$ddBg1: #2d2d2d;
+$ddBg2: #595959;
+$ddBg3: #636363;
+
+$black10: rgba(0, 0, 0, 0.1);
+$black20: rgba(0, 0, 0, 0.2);
+$black30: rgba(0, 0, 0, 0.3);
+$black40: rgba(0, 0, 0, 0.4);
+$black50: rgba(0, 0, 0, 0.5);
+$black70: rgba(0, 0, 0, 0.7);
+$black90: rgba(0, 0, 0, 0.9);
+$black: black;
+$notBlack: rgb(38, 38, 38);
+
+$white30: rgba(255, 255, 255, 0.3);
+$white40: rgba(255, 255, 255, 0.4);
+$white50: rgba(255, 255, 255, 0.5);
+$white70: rgba(255, 255, 255, 0.7);
+$white: white;
+$notWhite: rgb(240, 240, 240);
+$notWhite90: rgb(240, 240, 240) 0.9;
+
+$red: #aa223a;
+$mediumRed: #8b0d2a;
+$darkRed: #620a1e;
+$deepRed: #3d0613;
+
+$darkGrey: #3c3c3c;
+$darkGrey70: #3c3c3cd3;
+$darkGrey50: #3c3c3c80;
+
+$lightGrey: #707070;
+$lightGrey70: #707070b0;
+$lightGrey50: #70707072;
+$lightGrey30: #7070704e;
+$lightGrey10: #7070702f;
+$activePlaceholder: #d4d3d3ca;
+
+$secondaryColor: #aac2d1;
+$secondaryColorDark: #729eb9;
+$secondaryColor70: #b3c5cfee;
+$secondaryColorDisabled: #cdd0d1ee;
+
+$succeedBgColor: #7fb37fde;
+$succeedFontColor: #137527;
+
+$errorBgColor: #c73355;
+$errorFontColor: $mediumRed;
+
+// FONTS
+
+$raleway: "Raleway";
+
+$jost: "Jost", sans-serif;
+
+$fw100: 100;
+$fw200: 241;
+$fw400: 371;
+$fw500: 524;
+$fw600: 670;
+$fw800: 806;
+
+$fsMini: 10px;
+$fsXXS: 12px;
+$fsSmall: 14px;
+$fsMid: 16px;
+$fsIntermid: 19px;
+$fsBig: 22px;
+$fsXL: 24px;
+$fsXXL: 28px;
+$fsMega: 34px;
+$fsGiga: 38px;
+$fsUltra: 55px;
+$fsMAX: 85px;
+
+// MARGINS
+$microMargin: 2px;
+$tinyMargin: 4px;
+$smallMargin: 8px;
+$smediumMargin: 11px;
+$mediumMargin: 15px;
+$largeMargin: 25px;
+$veryLargeMargin: 50px;
+$gigaMargin: 75px;
+$ultraLargeMargin: 100px;
+$ultraWideMargin: 150px;
+$maxMargin: 200px;
+
+// BOX SHADOWS
+$bxShGalleries: 5px -10px 35px -14px $black30;
+$bxShHome: 0px -7px 10px 0.2px #c1c1c197;
+
+// LINE HEIGHTS
+$mobileLineHeight: 1.75em;
