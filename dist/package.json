@@ -5,10 +5,12 @@
   "description": "Base scss system by Doc",
   "main": "./lib/index.js",
   "scripts": {
-    "build": "rm -r ./dist ; sass ./lib:./dist/css --no-source-map ; cp -r ./lib ./dist/scss ; mv ./dist/scss/index.js ./dist/index.js ; cp ./package.json ./dist/package.json"
+    "build": "rm -r ./dist ; sass ./lib:./dist/css --no-source-map ; cp -r ./lib ./dist/scss ; mv ./dist/scss/index.js ./dist/index.js ; cp ./package.json ./dist/package.json",
+    "deploy": "npm run build ; cd ./dist ; npm publish"
   },
   "author": "Doc",
   "license": "GPL-3.0",
+  "repository": "https://github.com/doc-code-hub/doc-sass-common",
   "devDependencies": {
     "sass": "^1.59.3"
   }
