@@ -1,0 +1,80 @@
+@import "./variables.scss";
+
+.top-0 {
+    top: 0px;
+}
+.right-0 {
+    right: 0px;
+}
+.bottom-0 {
+    bottom: 0px;
+}
+.left-0 {
+    left: 0px;
+}
+
+.top-1 {
+    top: $microMargin;
+}
+.right-1 {
+    right: $microMargin;
+}
+.bottom-1 {
+    bottom: $microMargin;
+}
+.left-1 {
+    left: $microMargin;
+}
+
+
+.top-2 {
+    top: $tinyMargin;
+}
+.right-2 {
+    right: $tinyMargin;
+}
+.bottom-2 {
+    bottom: $tinyMargin;
+}
+.left-2 {
+    left: $tinyMargin;
+}
+
+.top-3 {
+    top: $smallMargin;
+}
+.right-3 {
+    right: $smallMargin;
+}
+.bottom-3 {
+    bottom: $smallMargin;
+}
+.left-3 {
+    left: $smallMargin;
+}
+
+.top-4 {
+    top: $mediumMargin;
+}
+.right-4 {
+    right: $mediumMargin;
+}
+.bottom-4 {
+    bottom: $mediumMargin;
+}
+.left-4 {
+    left: $mediumMargin;
+}
+
+.top-5 {
+    top: $largeMargin;
+}
+.right-5 {
+    right: $largeMargin;
+}
+.bottom-5 {
+    bottom: $largeMargin;
+}
+.left-5 {
+    left: $largeMargin;
+}
