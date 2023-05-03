@@ -1,6 +1,6 @@
 {
   "name": "doc-sass-common",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "description": "Base scss system by Doc",
   "main": "./lib/index.js",
